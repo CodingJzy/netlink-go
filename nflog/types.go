@@ -6,7 +6,7 @@ import (
 	"net"
 	"syscall"
 
-	"go.aporeto.io/netlink-go/common/syscallwrappers"
+	"github.com/CodingJzy/netlink-go/common/syscallwrappers"
 )
 
 // NfLog -- Nflog struct

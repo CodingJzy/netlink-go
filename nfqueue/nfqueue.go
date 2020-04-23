@@ -8,8 +8,8 @@ import (
 	"syscall"
 	"unsafe"
 
-	"go.aporeto.io/netlink-go/common"
-	"go.aporeto.io/netlink-go/common/syscallwrappers"
+	"github.com/CodingJzy/netlink-go/common"
+	"github.com/CodingJzy/netlink-go/common/syscallwrappers"
 )
 
 //General structure of all message passed to nfnetlink for netlink.h in kernel

@@ -10,8 +10,8 @@ import (
 	"fmt"
 
 	"github.com/vishvananda/netlink"
-	"go.aporeto.io/netlink-go/common"
-	"go.aporeto.io/netlink-go/conntrack"
+	"github.com/CodingJzy/netlink-go/common"
+	"github.com/CodingJzy/netlink-go/conntrack"
 )
 
 func display(result []*netlink.ConntrackFlow) {

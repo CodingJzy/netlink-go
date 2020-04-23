@@ -11,7 +11,7 @@ import (
 	"log"
 	"time"
 
-	"go.aporeto.io/netlink-go/nflog"
+	"github.com/CodingJzy/netlink-go/nflog"
 )
 
 func packetCallback(buf *nflog.NfPacket, data interface{}) {
